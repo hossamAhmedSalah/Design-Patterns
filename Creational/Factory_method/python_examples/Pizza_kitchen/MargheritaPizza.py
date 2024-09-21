@@ -9,7 +9,7 @@ class MargheritaPizza(Pizza):
         print(f"backing {self.type} {self.type} with {self.price}")
     def cut(self, slices:int = 8):
         print(f"cutting {self.type} into {slices} slices")
-    def pack(slef):
+    def pack(self):
         print(f"Packaging the {self.type} pizza")
 
 
